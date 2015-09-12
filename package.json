@@ -1,7 +1,7 @@
 {
   "name": "angular-http-loading-interceptor",
   "description": "HTTP Loading Interceptor Module for AngularJS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "maintainers": [
     {
       "email": "jarnix@jarnix.com"
