@@ -35,11 +35,11 @@
 	    link : function($scope, element, attrs) {
 		$scope.$on("httpLoadingInterceptor:show", function() {
 		    // console.log('show');
-		    return element.show();
+		    element.addClass('loading-visible');
 		});
-		$scope.$on("httpLoadingInterceptor:show", function() {
+		$scope.$on("httpLoadingInterceptor:hide", function() {
 		    // console.log('hide');
-		    return element.hide();
+		    element.removeClass('loading-visible');
 		});
 	    }
 	};

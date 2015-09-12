@@ -1,44 +1,54 @@
 @CHARSET "ISO-8859-1";
 
 #httpLoadingSpinner {
-	background-color:black;
-	border:1px solid white;
-  width: 50px;
-  height: 40px;
+  width: 200px;
+  height: 60px;
   text-align: center;
   font-size: 10px;
   position: fixed;
-  top:100px;
-  left:100px;
+  top:50%;
+  left:50%;
+  margin-top:-30px;
+  margin-left:-100px;
   z-index:1100;
+  -webkit-transition:all linear 0.2s;
+  -moz-transition:all linear 0.2s;
+  -o-transition:all linear 0.2s;
+  transition:all linear 0.2s;
+  opacity:0;
 }
 
-.spinner > div {
+#httpLoadingSpinner.loading-visible {
+    opacity:1;
+}
+
+#httpLoadingSpinner > div {
   background-color: #333;
+  border:1px solid #444;
   height: 100%;
-  width: 6px;
+  width: 7px;
   display: inline-block;
-  
+  margin-right:3px;
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
 
-.spinner .rect2 {
+#httpLoadingSpinner .rect2 {
   -webkit-animation-delay: -1.1s;
   animation-delay: -1.1s;
 }
 
-.spinner .rect3 {
+#httpLoadingSpinner .rect3 {
   -webkit-animation-delay: -1.0s;
   animation-delay: -1.0s;
 }
 
-.spinner .rect4 {
+#httpLoadingSpinner .rect4 {
   -webkit-animation-delay: -0.9s;
   animation-delay: -0.9s;
 }
 
-.spinner .rect5 {
+#httpLoadingSpinner .rect5 {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
 }
