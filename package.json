@@ -1,0 +1,31 @@
+{
+  "name": "angular-http-loading-interceptor",
+  "description": "HTTP Loading Interceptor Module for AngularJS",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "email": "jarnix@jarnix.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git+https://github.com/jarnix/angular-httpLoadingInterceptor.git"
+    }
+  ],
+  "dependencies": {
+    "angular": "~1.4.0"
+  },
+  "readme": "This module will intercept all the requests done in the app, and displays a spinner",
+  "gitHead": "5d9ec940451c0d7cec5d74d9af05811dd807563c",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarnix/angular-httpLoadingInterceptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jarnix/angular-httpLoadingInterceptor.git/issues"
+  },
+  "homepage": "https://github.com/jarnix/angular-httpLoadingInterceptor.git#readme",
+  "_id": "angular-http-loading-interceptor@1.0.0",
+  "scripts": {}
+}
