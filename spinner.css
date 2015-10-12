@@ -16,10 +16,12 @@
   -o-transition:all linear 0.2s;
   transition:all linear 0.2s;
   opacity:0;
+  display:none;
 }
 
 #httpLoadingSpinner.loading-visible {
     opacity:1;
+  display:block;
 }
 
 #httpLoadingSpinner > div {
